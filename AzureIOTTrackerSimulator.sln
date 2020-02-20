@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIOTTrackerSimulator", "AzureIOTTrackerSimulator.csproj", "{1D7FCD67-D900-42F3-B7EB-186D558B622E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7FCD67-D900-42F3-B7EB-186D558B622E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7FCD67-D900-42F3-B7EB-186D558B622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7FCD67-D900-42F3-B7EB-186D558B622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7FCD67-D900-42F3-B7EB-186D558B622E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0052CE8-8731-463E-812D-D20572EE846E}
+	EndGlobalSection
+EndGlobal
