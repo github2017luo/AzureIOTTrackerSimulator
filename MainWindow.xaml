@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AzureIOTTrackerSimulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="430" Width="736">
     <Grid>
+        <Button Content="Send Messages" HorizontalAlignment="Left" Margin="603,315,0,0" VerticalAlignment="Top" Height="51" Width="105" Click="Button_Click"/>
+        <Label Content="Device #" HorizontalAlignment="Left" Height="27" Margin="34,62,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Origin" HorizontalAlignment="Left" Height="27" Margin="105,62,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Destination" HorizontalAlignment="Left" Height="27" Margin="326,62,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="Origin1" HorizontalAlignment="Left" Height="26" Margin="105,105,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="Destination1" HorizontalAlignment="Left" Height="26" Margin="326,105,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+        <ProgressBar x:Name="Progress1" HorizontalAlignment="Left" Height="23" Margin="603,108,0,0" VerticalAlignment="Top" Width="100" Visibility="Visible"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="55,156,0,0" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="Origin2" HorizontalAlignment="Left" Height="26" Margin="105,156,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="Destination2" HorizontalAlignment="Left" Height="26" Margin="326,156,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+        <ProgressBar x:Name="Progress2" HorizontalAlignment="Left" Height="23" Margin="603,159,0,0" VerticalAlignment="Top" Width="100" Visibility="Visible"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="55,205,0,0" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="Origin3" HorizontalAlignment="Left" Height="26" Margin="105,205,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="Destination3" HorizontalAlignment="Left" Height="26" Margin="326,205,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+        <ProgressBar x:Name="Progress3" HorizontalAlignment="Left" Height="23" Margin="603,209,0,0" VerticalAlignment="Top" Width="100" Visibility="Visible"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="55,253,0,0" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="Origin4" HorizontalAlignment="Left" Height="26" Margin="105,253,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="Destination4" HorizontalAlignment="Left" Height="26" Margin="326,253,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+        <ProgressBar x:Name="Progress4" HorizontalAlignment="Left" Height="23" Margin="603,257,0,0" VerticalAlignment="Top" Width="100" Visibility="Visible"/>
+        <Label x:Name="currentTime" Content="Time" HorizontalAlignment="Left" Margin="0,361,0,0" VerticalAlignment="Top" Width="296" Height="40"/>
+        <Button Content="Connect To Devices" HorizontalAlignment="Left" Margin="22,315,0,0" VerticalAlignment="Top" Height="51" Width="126" Click="Connect_Click"/>
 
     </Grid>
 </Window>
